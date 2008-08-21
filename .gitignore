@@ -1,5 +1,6 @@
 .*.swp
 .DS_Store
+MacVim.app
 src/MacVim/MacVim.xcodeproj/*.mode1
 src/MacVim/MacVim.xcodeproj/*.mode1v3
 src/MacVim/MacVim.xcodeproj/*.pbxuser
