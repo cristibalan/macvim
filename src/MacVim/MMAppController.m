@@ -534,6 +534,8 @@ fsEventCallback(ConstFSEventStreamRef streamRef,
 
         [alert release];
     } else {
+    }
+    if (0) {
         // No unmodified buffers, but give a warning if there are multiple
         // windows and/or tabs open.
         int numWindows = [vimControllers count];
