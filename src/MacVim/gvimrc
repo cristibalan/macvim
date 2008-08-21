@@ -6,6 +6,8 @@
 " This is a work in progress.  If you feel so inclined, please help me improve
 " this file.
 
+if exists("use_default_macvim_gvimrc")
+
 
 " Make sure the '<' and 'C' flags are not included in 'cpoptions', otherwise
 " <CR> would not be recognized.  See ":help 'cpoptions'".
@@ -104,3 +106,5 @@ endif " exists("macvim_hig_shift_movement")
 " Restore the previous value of 'cpoptions'.
 let &cpo = s:cpo_save
 unlet s:cpo_save
+
+endif
