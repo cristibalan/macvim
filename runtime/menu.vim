@@ -1166,7 +1166,7 @@ let &cpo = s:cpo_save
 unlet s:cpo_save
 
 
-if has("gui_macvim")
+if has("gui_macvim") && !exists("did_install_default_menus")
   "
   " Set up menu key equivalents (these should always have the 'D' modifier
   " set), action bindings, and alternate items.
