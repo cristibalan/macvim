@@ -2,7 +2,7 @@
 # from http://code.google.com/p/macvim/wiki/Building
 
 cd src
-./configure --enable-gui=macvim --with-features=huge --enable-cscope --enable-perlinterp --enable-pythoninterp --enable-rubyinterp --enable-sniff --enable-multibyte --with-macarchs=i386 --with-macsdk=10.5
+./configure --enable-gui=macvim --with-features=huge --enable-cscope --enable-perlinterp --enable-pythoninterp --enable-rubyinterp --enable-sniff --enable-multibyte --with-macarchs=x86_64 --with-macsdk=10.6
 make
 cd MacVim
 xcodebuild
