@@ -26,6 +26,7 @@ src/MacVim/PSMTabBarControl/build
 src/MacVim/build
 src/TAGS
 src/Vim
+src/a.out.dSYM
 src/auto/config.h
 src/auto/config.mk
 src/auto/if_perl.c
